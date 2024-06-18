@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Calculadora</title>
+   <script src="javascript/script.js"></script>
+   <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+   <div class="content">
+      <div class="box">
+         <div class="title"><h1>Calculadora</h1></div>
+         <div class="numeros">
+            <input type="number" class="numero" id="num1" placeholder="Número um">
+         </div>
+         <div class="numeros">
+            <input type="number" class="numero" id="num2" placeholder="Número dois">
+         </div>
+         <div class="operacao">
+
+            <div class="operacoes">
+               <a onclick="multiplicacao()"><input type="button" class="input" value="X"></a>
+            </div>
+            <div class="operacoes">
+               <a onclick="divisao()"><input type="button" class="input" value="/"></a>
+            </div>
+
+            <div class="operacoes">
+               <a onclick="subtracao()"><input type="button" class="input" value="-"></a>
+               </div>
+               
+            <div class="operacoes">
+               <a onclick="soma()"><input type="button" class="input" value="+"></a>
+            </div>
+         </div>
+         <div class="resultado">
+            <div id="Resultado">
+               
+            </div>
+         </div>
+      </div>
+   </div>
+</body>
+</html>
