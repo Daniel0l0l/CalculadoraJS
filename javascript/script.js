@@ -33,3 +33,5 @@ function divisao () {
 
    document.getElementById("Resultado").innerHTML = resultado.toFixed(2)
 }
+
+//klasjdkkk oba
